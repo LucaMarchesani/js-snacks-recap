@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(33, 33, 33);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+input{
+    border: none;
+    border-radius: 25px;
+    padding: .5rem;
+    background-color: teal;
+    color: whitesmoke;
+    font-weight: bold;
+    margin: 2rem;
+}
+
+div.red-numbers{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 1rem;
+    color: red;
+}
+
+div.green-numbers{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 1rem;
+    color: lime;
+}

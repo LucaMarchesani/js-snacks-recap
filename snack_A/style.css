@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(39, 38, 38);
+}
+
+input {
+    width: 200px;
+    padding: .5rem;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+}
+
+div.chat {
+    width: 60%;
+    height: 70vh;
+    margin-top: 1rem;
+    border: 5px solid whitesmoke;
+    border-radius: 3px;
+    padding: 2rem;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp4922106.jpg&f=1&nofb=1&ipt=291e34413937b7cf3a1a4ad96651ec2a291a30b17093124f5c77cd36f81a0f40&ipo=images);
+    background-size: cover;
+    overflow: scroll;
+}
+
+div.user {
+    float: right;
+    margin: .5rem;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: lightskyblue;
+    clear: both;
+}
+
+div.ia {
+    float: left;
+    margin: .5rem;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: lightgreen;
+    clear: both;
+}

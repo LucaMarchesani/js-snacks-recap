@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(32, 31, 31);
+}
+
+.red {
+    color: red;
+    font-weight: bold;
+}
+
+.green {
+    color: lime;
+    font-weight: bold;
+}
+
+label {
+    color: whitesmoke;
+}
+
+input {
+    margin-left: 1rem;
+}
+
+.guestList {
+    color: whitesmoke;
+    margin: 1rem 0;
+}

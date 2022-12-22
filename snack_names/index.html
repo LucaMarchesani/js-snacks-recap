@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista nomi</title>
+    <!-- CUSTOM STYLE CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="app">
+        <main>
+            <label for="txt">Inserisci un nome:</label>
+            <input type="text" name="txt" v-model="inputName">
+            <input type="button" value="clicca" @click="isValid(inputName)">
+            <p class="red" v-if="!isNameValid">ACCESSO NEGATO</p>
+            <p class="green" v-else>ACCESSO CONSENTITO</p>
+            <div class="guestList" v-show="namesList.length === 10" v-for="name in namesList">
+                {{name}}
+            </div>
+
+
+        </main>
+    </div>
+
+    <!-- VUE, AXIOS AND JS -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.2/axios.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
